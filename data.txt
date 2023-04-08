@@ -1,0 +1,8 @@
+Prenom: Albert
+Nom: State
+Numero etudiant: 201534
+Note en anglais: 45
+Note en math: 21
+Note en francais: 45
+Note en sciences: None
+Note en histoire: 13
