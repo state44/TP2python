@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Afficher les notes</title>
+    </head>
+    <body>
+        <h1>Notes de {{ notes["prenom"] }} {{nomfamille}}</h1>
+        <h2>Numero etudiant: {{ numeroetuidant}}</h2>
+    <table>
+        <tr>
+            <th>Matière</th>
+            <th>Note</th>
+        </tr>
+        <tr>
+            <td>Anglais</td>
+            <td>{{ notes["note1"] }}</td>
+        </tr>
+        <tr>
+            <td>Mathématiques</td>
+            <td>{{ notes["note2"] }}</td>
+        </tr>
+        <tr>
+            <td>Français</td>
+            <td>{{ notes["note3"] }}</td>
+        </tr>
+        <tr>
+            <td>Sciences</td>
+            <td>{{ notes["note4"] }}</td>
+        </tr>
+        <tr>
+            <td>Histoire</td>
+            <td>{{ notes["note5"] }}</td>
+        </tr>
+
+    </table>
+    <br>
+    <a href="/download_notes" download>Télécharger les notes</a>
+    <br>
+
+  </body>
+</html>

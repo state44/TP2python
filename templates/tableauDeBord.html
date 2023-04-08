@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tableau de bord</title>
+  </head>
+  <body>
+    <h1>Tableau de bord</h1>
+    <form action="/afficherNotes" method="post">
+      <label for="nom">Choisissez un étudiant:</label>
+      <select id="nom" name="nom">
+        {% for nom in noms %}
+        <option value="{{ nom }}">{{ nom }}</option>
+        {% endfor %}
+      </select>
+      <br><br>
+      <input type="submit" value="Afficher les notes">
+    </form>
+  </body>
+</html>
