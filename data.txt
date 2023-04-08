@@ -27,7 +27,3 @@ Prenom: tan
 Nom: ok
 Numero etudiant: 12356
 Notes de l'etudiant: 465, 69, 100, 35, 3
-Prenom: Samuel
-Nom: Drolet
-Numero etudiant: 1945454
-Notes de l'etudiant: 1, 21, 1, 35, 3
